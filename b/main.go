@@ -1,3 +1,3 @@
 package b
 
-var V = "b 1"
+var V = "b 2"

@@ -1,8 +1,10 @@
 # testrepo1114
 
-[![Go Reference][pkgsitebadge]][pkgsite]
-[![License][licensebadge]](LICENSE)
+This repo houses a set of go modules as a rouch simulation of the opentelemetry go modules.
 
-[licensebadge]: https://img.shields.io/github/license/seankhliao/testrepo1114.svg?style=flat-square
-[pkgsitebadge]: https://pkg.go.dev/badge/go.seankhliao.com/testrepo1114.svg
-[pkgsite]: https://pkg.go.dev/go.seankhliao.com/testrepo1114
+- `a`, `b`, `d`, `e` are independent.
+- `c` depends on `b`
+- `f` depends on `e`
+
+The `meta` module is a proposed "virtual" dependency for updating versions in sync.
+See [seankhliao/testrepo1115](https://github.com/seankhliao/testrepo1115) for details.
